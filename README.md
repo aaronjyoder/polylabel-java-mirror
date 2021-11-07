@@ -18,24 +18,24 @@ Article: https://blog.mapbox.com/a-new-algorithm-for-finding-a-visual-center-of-
 
 Repositories:
 ```
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+}
 ```
 
 Dependencies:
 ```
-	dependencies {
-	        implementation 'com.github.aaronjyoder:polylabel-java-mirror:Tag'
-	}
+dependencies {
+        implementation 'com.github.aaronjyoder:polylabel-java-mirror:1.3.0'
+}
 ```
 
 ### Maven
 
 Add to your repositories:
 ```
-	<repository>
+  <repository>
       <id>jitpack.io</id>
       <url>https://jitpack.io</url>
   </repository>
@@ -43,11 +43,11 @@ Add to your repositories:
 
 Add to your dependencies:
 ```
-	<dependency>
-	    <groupId>com.github.aaronjyoder</groupId>
-	    <artifactId>polylabel-java-mirror</artifactId>
-	    <version>Tag</version>
-	</dependency>
+  <dependency>
+      <groupId>com.github.aaronjyoder</groupId>
+      <artifactId>polylabel-java-mirror</artifactId>
+      <version>1.3.0</version>
+  </dependency>
 ```
 
 ## Usage
