@@ -25,7 +25,7 @@ Then add the following dependency to your pom.xml:
 ```
 <groupId>com.monst</groupId>
 <artifactId>polylabel-java</artifactId>
-<version>1.2.1</version>
+<version>1.3.0</version>
 ```
 
 ## Usage
