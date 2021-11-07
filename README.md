@@ -1,6 +1,8 @@
 # polylabel-java
 A Java port of <b>PolyLabel</b> from MapBox.
 
+This repository is a mirror of https://github.com/FreshLlamanade/polylabel-java
+
 Official repo: [https://github.com/mapbox/polylabel](https://github.com/mapbox/polylabel)
 
 Article: https://blog.mapbox.com/a-new-algorithm-for-finding-a-visual-center-of-a-polygon-7c77e6492fbc
