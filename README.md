@@ -14,18 +14,40 @@ Article: https://blog.mapbox.com/a-new-algorithm-for-finding-a-visual-center-of-
 
 ## Installation
 
-Add polylabel-java to your local .m2 folder with the following commands:
+### Gradle
+
+Repositories:
 ```
-git clone https://github.com/FreshLlamanade/polylabel-java
-cd polylabel-java
-mvn clean install
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
 ```
 
-Then add the following dependency to your pom.xml:
+Dependencies:
 ```
-<groupId>com.monst</groupId>
-<artifactId>polylabel-java</artifactId>
-<version>1.3.0</version>
+	dependencies {
+	        implementation 'com.github.aaronjyoder:polylabel-java-mirror:Tag'
+	}
+```
+
+### Maven
+
+Add to your repositories:
+```
+	<repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+  </repository>
+```
+
+Add to your dependencies:
+```
+	<dependency>
+	    <groupId>com.github.aaronjyoder</groupId>
+	    <artifactId>polylabel-java-mirror</artifactId>
+	    <version>Tag</version>
+	</dependency>
 ```
 
 ## Usage
